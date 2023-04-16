@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/user-details-50fin/static/css/main.b88b9b7b.css",
+    "main.js": "/user-details-50fin/static/js/main.f0e7c837.js",
+    "index.html": "/user-details-50fin/index.html",
+    "main.b88b9b7b.css.map": "/user-details-50fin/static/css/main.b88b9b7b.css.map",
+    "main.f0e7c837.js.map": "/user-details-50fin/static/js/main.f0e7c837.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88b9b7b.css",
+    "static/js/main.f0e7c837.js"
+  ]
+}

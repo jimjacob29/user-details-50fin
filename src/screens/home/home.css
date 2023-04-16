@@ -1,0 +1,127 @@
+.userListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 88px;
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 16px;
+  margin: 8px;
+  gap: 16px;
+  border: 1px solid rgb(209, 152, 38);
+  border-radius: 16px;
+}
+.userData {
+  display: flex;
+  gap: 16px;
+  font-weight: 700;
+}
+
+.attributeName {
+  width: 90px;
+}
+
+.attributeValue {
+  color: rgb(160, 164, 47);
+}
+
+.addUserButton {
+  position: fixed;
+  top: 48px;
+  right: 0;
+  margin: 8px;
+  height: 32px;
+  width: 128px;
+  background-color: rgb(224, 36, 171);
+  border-color: antiquewhite;
+  color: antiquewhite;
+  border-radius: 8px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 64px;
+}
+.inputContainer {
+  display: flex;
+  gap: 74px;
+  align-items: center;
+}
+.inputElement {
+  padding: 16px;
+  width: 200px;
+  border-radius: 8px;
+}
+.labelElement {
+  width: 130px;
+}
+.modalButtonConatiner {
+  display: flex;
+  flex-direction: column;
+}
+.modalButtonSubmit {
+  height: 48px;
+  width: 128px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.modalButtonSubmit:hover {
+  background-color: rgb(22, 102, 22);
+  color: white;
+}
+.modalHeading {
+  display: flex;
+  background-color: rgba(34, 121, 96, 0.875);
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  padding: 12px;
+}
+.modalCloseButton {
+  cursor: pointer;
+  background-color: rgba(34, 121, 96, 0.875);
+  color: white;
+  border: none;
+  font-size: 24px;
+}
+.errorText {
+  color: red;
+  font-weight: 400;
+}
+
+@media all and (max-width: 480px) {
+  .addUserButton {
+    position: fixed;
+    bottom: 1px;
+    top: unset;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 48px;
+  }
+  .userListContainer {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .modalHeading {
+    width: auto;
+  }
+  .inputContainer {
+    flex-direction: column;
+    gap: 16px;
+    align-items: unset;
+  }
+}
